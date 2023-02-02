@@ -1,9 +1,9 @@
 {
   "private": true,
   "version": "0.1.0",
-  "name": "bitcoinmythology.org",
-  "description": "The Spiral Book of Bitcoin Mythology",
-  "repository": "git@github.com:spiralxyz/bitcoinmythology.org.git",
+  "name": "mitologiabitcoin.org",
+  "description": "El libro de la Mitología de Bitcoin",
+  "repository": "git@github.com:SuperAtic/mitologiabitcoin.org.git",
   "license": "UNLICENSED",
   "engines": {
     "node": ">=14.0.0"

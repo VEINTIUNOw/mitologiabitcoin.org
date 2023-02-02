@@ -1,4 +1,4 @@
-# Bitcoin Mythology
+# Mitología Bitcoin
 
 [El libro de la Mitología de Bitcoin](https://bitcoinmythology.org) por Spiral Team.
 
