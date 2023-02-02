@@ -1,26 +1,26 @@
 # Bitcoin Mythology
 
-[The Spiral Book of Bitcoin Mythology](https://bitcoinmythology.org).
+[El libro de la Mitología de Bitcoin](https://bitcoinmythology.org) por Spiral Team.
 
 ![Build](https://github.com/spiralxyz/bitcoinmythology.org/workflows/build/badge.svg)
 
 ## Content
 
-The content can be edited via the JSON files in the [content directory](./content).
+El contenido se puede editar a través de los archivos JSON en el [content directory](./content).
 
 ## Local build
 
-[Node.js](https://nodejs.org/en/) is a prerequisite, the dependencies are managed via npm.
-Once you have cloned this repo, you can setup the packages:
+[Node.js](https://nodejs.org/en/) es un requisito previo, las dependencias se administran a través de `npm`.
+Una vez que haya clonado este repositorio, puede configurar los paquetes:
 
 ```bash
 npm install
 ```
 
-Create a build and rebuild on file change:
+Cree una compilación y una reconstrucción en el cambio de archivo:
 
 ```bash
 npm start
 ```
 
-This will bring up the dev server and pattern library on [localhost:3000](http://localhost:3000).
+Esto abrirá el servidor de desarrollo y la biblioteca de patrones en [localhost:3000](http://localhost:3000).
