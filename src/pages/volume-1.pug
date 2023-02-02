@@ -2,7 +2,7 @@ extends /template.pug
 
 block vars
   - const pageId = 'volume1'
-  - const title = 'Bitcoin Mining'
+  - const title = 'Minería Bitcoin'
   - const cardImage = assetPath('/img/mining/card.png')
   - const bg = imgs => imgs ? `background-image:${imgs.map(i => `url(${assetPath(`/img/mining/${i}`)})`).join(',')};` : null
 
@@ -24,67 +24,67 @@ mixin figure(id, alt, side)
 block main
   article#title
     nav
-      a(href="/volume-2-bitcoin-security/") Read Volume 2
+      a(href="/volumen-2-seguridad-bitcoin/") Lee Volumen 2
     .bg(style=`background-image:url(${assetPath("/img/mining/title-bg.svg")})`)
       img.coin1(src=assetPath("/img/coin.svg") alt="")
       img.coin2(src=assetPath("/img/coin.svg") alt="")
       img.coin3(src=assetPath("/img/coin.svg") alt="")
       img.coin4(src=assetPath("/img/coin.svg") alt="")
     .content
-      span.prelude The Spiral Book of Bitcoin&nbsp;Mythology
+      span.prelude El libro de la Mitología de Bitcoin
       h1.title= title
-      span.volume Volume 1
+      span.volume Volumen 1
 
   +content('intro-1', 'left', 'introduction-glyph.png', ['introduction-bg-bottom.svg'], ['introduction-bg-top.svg', 'introduction-bg-center.svg'])
     :markdown-it(html linkify typographer)
-      ## Introduction
+      ## Introducción
 
-      *"Bitcoin. It's borderless. It's decentralized. And it's destroying the world by releasing an endless stream of smoking hot CO2 into the atmosphere."*
+      *"Bitcoin. Es sin fronteras. Es descentralizado. Y está destruyendo el mundo al liberar un flujo interminable de ahumante y caliente CO<sub>2</sub> a la atmósfera."*
 
-      You've probably heard something like this a few times before. But is it true? Well, no. Not really. The truth is that bitcoin miners are like any other market participants: to last, they have to maximize efficiency. That means embracing green energy at every level.
+      Probablemente hayas escuchado algo como esto un par de veces antes. ¿Pero es verdad? Bueno no. No realmente. La verdad es que los mineros de bitcoin son como cualquier otro participante del mercado: para durar, tienen que maximizar la eficiencia. Eso significa adoptar la energía verde en todos los niveles.
 
-      This is the first volume in a series about bitcoin myths and the mythical creatures proliferating them. Since there are no more prominent or prevalent myths about bitcoin than those having to do with its environmental impact, we started there.
+      Este es el primer volumen de una serie sobre los mitos de bitcoin y las criaturas míticas que los proliferan. Dado que no existen mitos más prominentes o predominantes sobre bitcoin que los que tienen que ver con su impacto ambiental, comenzamos allí.
 
   +content('intro-2', 'right', null, ['meet-the-myths-bg.svg'])
     :markdown-it(html linkify typographer)
-      ## Meet the myths
+      ## Conoce los Mitos
 
-      [1. Far-From-Jolly Green&nbsp;Giants](#green-giants-1)
-      [2. Scale-a-manders](#scale-a-manders-1)
-      [3. Warewolves](#warewolves-1)
-      [4. Ent-a-cops](#ent-a-cops-1)
+      [1. Lejos-de-Jolly Gigantes Verdes](#gigantes-verdes-1)
+      [2. Escala-a-mantes](#escala-a-mantes-1)
+      [3. MerceLobos](#mercelobos-1)
+      [4. Ener-Agentes](#ener-agentes-1)
       [5. Ampires](#ampires-1)
-      [6. Fiat Fairies](#fiat-fairies-1)
+      [6. Hadas Fiat](#hadas-fiat-1)
 
-  +content('green-giants-1', 'left', 'green-giants-glyph.svg', null, ['green-giants-bg.svg'])
+  +content('gigantes-verdes-1', 'left', 'gigantes-verdes-glyph.svg', null, ['gigantes-verdes-bg.svg'])
     h2
-      small Far-From-Jolly
-      span Green Giants
+      small Lejos-de-Jolly
+      span Gigantes Verdes
 
     :markdown-it(html linkify typographer)
-      *"Fee-fi-fo-fum. Bitcoin miners don't utilize green energy, son."*
+      *"Tarifa-fi-fo-fum. Los mineros de Bitcoin no utilizan energía verde, hijo."*
 
-      They’re big. They’re green. And they’re right to be concerned about where bitcoin miners get their electricity. But bitcoin is greener than they (and most humans) realize.
+      Son grandes. Son verdes. Y tienen razón al preocuparse por el lugar donde los mineros de bitcoin obtienen su electricidad. Pero bitcoin es más verde de lo que ellos (y la mayoría de los humanos) creen.
 
-      The highest cost associated with bitcoin mining? Energy. This makes miners some of the world’s foremost advocates for abundant and inexpensive sources like wind, hydro, and solar. Not only are these energy sources everywhere, even when they aren’t, miners can pack up and meet them wherever they are. So if you want to profitably mine bitcoin, you have to go green. Wherever that is.
+       ¿El mayor costo asociado con la minería de bitcoin? Energía. Esto convierte a los mineros en unos de los principales defensores mundiales de económicas y abundantes fuentes energeticas como la eólica, la hidroeléctrica y la solar. Estas fuentes de energía no solo están en todas partes, incluso cuando no lo están, los mineros pueden empacar y encontrarlas donde estén. Entonces, si se desea extraer bitcoin de manera rentable, debe volverse ecológico. Sea donde sea.
 
-  +figure('green-giants', 'Green Giants', 'right')
+  +figure('gigantes-verdes', 'Green Giants', 'right')
 
-  +content('scale-a-manders-1', 'right', 'scale-a-manders-glyph.svg', ['scale-a-manders-bg.svg'])
+  +content('escala-a-mantes-1', 'right', 'escala-a-mantes-glyph.svg', ['escala-a-mantes-bg.svg'])
     :markdown-it(html linkify typographer)
-      ## Scale-a-manders
+      ## Escala-a-mantes
 
-      *"Bitcoin can't sssscale."*
+      *"Bitcoin no puede esssscalar."*
 
-      For bitcoin, scaling means growing a billion percent without requiring a billion percent more energy. That’s it. For that reason, scale-a-manders are among the oldest and most pervasive bitcoin myths. But despite their frequent claims to the contrary, bitcoin’s energy cost per transaction was designed to "sssscale" and scale a lot.
+      Para bitcoin, escalar significa crecer un billón por ciento sin requerir un billón por ciento más de energía. Eso es. Por esa razón, los escala-a-mantes se encuentran entre los mitos de bitcoin más antiguos y generalizados. Pero a pesar de sus frecuentes afirmaciones en contrario, el costo de energía por transacción de bitcoin fue diseñado para "escalar" y escalar mucho.
 
-      That's because bitcoin’s transaction volume is independent of energy usage, meaning that it can accommodate 100, 1,000, or 10,000 times more transactions for the same amount of energy.
+      Esto se debe a que el volumen de transacciones de bitcoin es independiente del uso de energía, lo que significa que puede acomodar 100, 1000 o 10 000 veces más transacciones por la misma cantidad de energía.
 
-  +figure('scale-a-manders', 'Scale-a-manders', 'left')
+  +figure('escala-a-mantes', 'Scale-a-manders', 'left')
 
-  +content('warewolves-1', 'left', 'warewolves-glyph.svg', ['warewolves-bg.svg'])
+  +content('mercelobos-1', 'left', 'mercelobos-glyph.svg', ['mercelobos-bg.svg'])
     :markdown-it(html linkify typographer)
-      ## Warewolves
+      ## MerceLobos
 
       *"To recoup hardware costs, bitcoin mining hardware must run around the clock."*
 
@@ -92,43 +92,42 @@ block main
 
       This makes electricity the costliest part of mining, letting miners shut down when costs rise and making bitcoin mining one of the only solutions to the renewable energy supply/demand mismatch problem. Low demand? Miners on. High demand? Miners off.
 
-  +figure('warewolves', 'Warewolves', 'right')
+  +figure('mercelobos', 'Warewolves', 'right')
 
-  +content('ent-a-cops-1', 'right', 'ent-a-cops-glyph.svg', null, ['ent-a-cops-bg.svg'])
+  +content('ener-agentes-1', 'right', 'ener-agentes-glyph.svg', null, ['ener-agentes-bg.svg'])
     :markdown-it(html linkify typographer)
-      ## Ent-a-cops
+      ## Ener-Agentes
 
-      *"Bitcoin's using too much ent-ergy!"*
+      *"Bitcoin está usando demasiada ant-energía!"*
 
-      Some myths can't see the woods for the trees—maybe that's because they are trees. Their beef with bitcoin? How much energy it consumes. Though they have good intentions, their concern is a little misplaced: it's CO2 that's the problem, not energy consumption.
+      Algunos mitos no pueden ver el bosque por los árboles -- tal vez porque son árboles. ¿Su queja con bitcoin? Cuanta energía consume. Aunque tienen buenas intenciones, su preocupación está un poco fuera de lugar: el problema es el CO<sub>2</sub>, no el consumo de energía.
 
-      If bitcoin consumed 100x more energy but emitted zero CO2, would these worried sick-a-mores care? Probably not. And if demand for renewable energy does spike 100-fold, so would investment in green technology, which benefits everyone—especially trees.
-
-  +figure('ent-a-cops', 'Ent-a-cops', 'left')
+       Si bitcoin consumiera 100 veces más energía pero emitiera cero CO<sub>2</sub>, ¿Les importaría a estos enfermos tradicionalistas? Probablemente no. Y si la demanda de energía renovable se multiplica por 100, también lo haría la inversión en tecnología verde, que beneficia a todos -- especialmente a los árboles.
+  +figure('ener-agentes', 'Ent-a-cops', 'left')
 
   +content('ampires-1', 'left', 'ampires-glyph.png', ['ampires-bg.svg'])
     :markdown-it(html linkify typographer)
       ## Ampires
 
-      *"Siphoning blood? I’m not a monster."*
+      *"¿Sacar sangre? No soy un monstruo."*
 
-      These undying myths want energy consumed by bitcoin allocated to other green initiatives like electric vehicles. Hey, we like electric cars. But what they don't know is that renewable energy consumed by bitcoin rarely has other customers.
+      Estos mitos eternos quieren que la energía consumida por bitcoin se asigne a otras iniciativas ecológicas como los vehículos eléctricos. Oye, nos gustan los coches eléctricos. Pero lo que no saben es que la energía renovable consumida por bitcoin rara vez tiene otros clientes.
 
-      It's either unwanted due to transportation and storage costs, or it simply isn't in demand. If there are customers in line for that electricity, then it goes to the highest bidder. In almost all cases, because electricity is expensive, bitcoin miners won't be the highest bidders.
+      Ni siquiera es deseada debido a los costos de transporte y almacenamiento, o simplemente ya no tiene demanda. Si hay clientes en línea para esa electricidad, entonces va al mejor postor. En casi todos los casos, debido a que la electricidad es costosa, los mineros de bitcoin no serán los mejores postores.
 
   +figure('ampires', 'Ampires', 'right')
 
-  +content('fiat-fairies-1', 'right', 'fiat-fairies-glyph.svg', null, ['fiat-fairies-bg.svg'])
+  +content('hadas-fiat-1', 'right', 'fiat-fairies-glyph.svg', null, ['fiat-fairies-bg.svg'])
     :markdown-it(html linkify typographer)
-      ## Fiat Fairies
+      ## Hadas Fiat
 
-      *"Bitcoin consumes much more energy than conventional currencies."*
+      *"Bitcoin consume mucha más energía que las monedas convencionales."*
 
-      The truth about government-issued currencies is that they aren't backed by much more than a promise. And when they are, the things that support them are militaries, police forces, arcane legal systems, unaccountable banks, and mints they can fire up at will.
+      La verdad sobre las monedas emitidas por el gobierno es que no están respaldadas por mucho más que una promesa. Y cuando lo son, las cosas que los apoyan son los militares, las fuerzas policiales, los sistemas legales arcanos, los bancos que no rinden cuentas y las acuñas que pueden activar a voluntad.
 
-      All of these things consume vast amounts of energy—and it's rarely green. When bitcoin becomes the planet's preferred currency, it will come at the expense of fiat-dependent systems like these. And once they're gone, like real fairies, you'll probably never see them again.
+      Todas estas cosas consumen grandes cantidades de energía, y rara vez es verde. Cuando bitcoin se convertirá en la moneda preferida del planeta, será a expensas de sistemas dependientes de fíat como estos. Y una vez que se hayan ido, como hadas reales, probablemente nunca más las vuelves a ver.
 
-  +figure('fiat-fairies', 'Fiat Fairies', 'left')
+  +figure('fiat-fairies', 'Hadas Fiat', 'left')
 
   article#end
     .bg(style=`background-image:url(${assetPath("/img/mining/title-bg.svg")})`)
@@ -137,7 +136,7 @@ block main
       img.coin3(src=assetPath("/img/coin.svg") alt="")
       img.coin4(src=assetPath("/img/coin.svg") alt="")
     .content
-      span.prelude Volume 2 "Bitcoin Security" Out Now
-      h1.title The End?
-      a.button(href="/volume-2-bitcoin-security/")
-        span Read Volume 2: Bitcoin Security
+      span.prelude Volumen 2 "Seguridad Bitcoin" Disponible ahora
+      h1.title ¿El fin?
+      a.button(href="/volumen-2-seguridad-bitcoin/")
+        span Leer Volumen 2: Seguridad Bitcoin

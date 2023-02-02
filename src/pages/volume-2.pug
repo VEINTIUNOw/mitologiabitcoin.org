@@ -2,7 +2,7 @@ extends /template.pug
 
 block vars
   - const pageId = 'volume2'
-  - const title = 'Bitcoin Security'
+  - const title = 'Seguridad Bitcoin'
   - const cardImage = assetPath('/img/security/card.png')
   - const bg = imgs => imgs ? `background-image:${imgs.map(i => `url(${assetPath(`/img/security/${i}`)})`).join(',')};` : null
 
@@ -24,112 +24,112 @@ mixin figure(id, alt, side)
 block main
   article#title
     nav
-      a(href="/volume-1-bitcoin-mining/") Read Volume 1
+      a(href="/volumen-1-mineria-bitcoin/") Leer Volumen 1
     .bg(style=`background-image:url(${assetPath("/img/security/title-bg.png")})`)
     .content
-      span.prelude The Spiral Book of Bitcoin&nbsp;Mythology
+      span.prelude El libro de la Mitología de Bitcoin
       h1.title= title
-      span.volume Volume 2
+      span.volume Volumen 2
 
   +content('intro-1', 'left', 'introduction-glyph.png', ['white-cloud.png'], ['white-cloud.png', 'white-cloud.png', 'white-star.png'])
     :markdown-it(html linkify typographer)
-      ## Introduction
+      ## Introducción
 
-      *"If bitcoin is so safe, why does it seem so scary?"*
+      *"Si bitcoin es tan seguro, ¿por qué da tanto miedo?"*
 
-      If you've talked about bitcoin, you've probably heard that it's easy to steal or lose or that it will soon be banned and go to zero. But as with all things we hear, we should ask ourselves: Is it true? Well, like with this guide's last volume, the answer is no, not really.
+      Si ha hablado sobre bitcoin, probablemente haya escuchado que es fácil de robar o perder o que pronto será prohibido y su valor a cero. Pero como con todas las cosas que escuchamos, debemos preguntarnos: ¿Es eso verdad? Bueno, al igual que con el volumen último de este libro, la respuesta es no, no realmente.
 
-      There's a fun-to-pronounce acryonym that's used to describe this kind of misinformation, and it's FUD: Fear, Uncertainty, Doubt. And you won't find a greater source of FUD anywhere than you will when talking about bitcoin and security.
+      Hay un acrónimo divertido de pronunciar que se usa para describir este tipo de información errónea, y es MID: Miedo, Incertidumbre, Duda. Y no encontrará una mayor fuente de MID en ninguna parte que cuando se habla de bitcoin y seguridad.
 
   +content('intro-2', 'right', null, ['meet-the-myths-bg.svg'])
     :markdown-it(html linkify typographer)
       ## Meet the myths
 
-      [1. Hackersaurus Rex](#hackersaurus-rex-1)
-      [2. Hedgefundhog](#hedgefundhog-1)
-      [3. Scamera](#scamera-1)
-      [4. The Iron Legislator](#iron-legislator-1)
-      [5. Mount Inaccessible](#mount-inaccessible-1)
-      [6. Terrible Hiding Spot](#terrible-hiding-spot-1)
+      [1. Hackerosaurus Rex](#hackerosaurio-rex-1)
+      [2. Hedgefundhog](#fonderizos-1)
+      [3. Estafamera](#estafamera-1)
+      [4. El Legislador Hierrico](#legislador-hierrico-1)
+      [5. Monte Inaccessible](#monte-inaccessible-1)
+      [6. Terrible Escondite](#terrible-escondite-1)
 
-  +content('hackersaurus-rex-1', 'left', 'hackersaurus-rex-glyph.svg', ['hackersaurus-rex-bg-top.svg', 'hackersaurus-rex-bg-bottom.svg'])
+  +content('hackerosaurio-rex-1', 'left', 'hackerosaurio-rex-glyph.svg', ['hackerosaurio-rex-bg-top.svg', 'hackerosaurio-rex-bg-bottom.svg'])
     :markdown-it(html linkify typographer)
-      ## Hackersaurus Rex
+      ## Hackerosaurio Rex
 
-      *"Stegosaurus? No thanks. But I'll take a bite out of your bitcoin."*
+      *"Estegosaurio? No, gracias. Pero le daré un mordisco a tu bitcoin."*
 
-      Bitcoin users are both rightly and wrongly concerned about hackers. On the one hand, your bitcoin are valuable. On the other hand, most hackers are dinosaurs. So then, how do people keep getting hacked?
+      Los usuarios de Bitcoin están conrazón o sin razón preocupados por los piratas informáticos. Por un lado, sus bitcoins son valiosos. Por otro lado, la mayoría de los hackers son dinosaurios. Entonces, ¿cómo es que la gente sigue siendo hackeada?
 
-      Human error, mainly. Because the bitcoin network has never been hacked, properly secured bitcoin are almost impossible to steal. That is unless their owners mistakenly hand them over to one of these bird brains.
+       Error humano, principalmente. Debido a que la red de bitcoin nunca ha sido pirateada, los bitcoins debidamente asegurados son casi imposibles de robar. Eso es a menos que sus dueños los entreguen por error a uno de estos cerebros de aves.
 
-  +figure('hackersaurus-rex', 'Hackersaurus Rex', 'right')
+  +figure('hackerosaurio-rex', 'Hackerosaurio Rex', 'right')
 
-  +content('hedgefundhog-1', 'right', 'hedgefundhog-glyph.png', ['snowflakes.png', 'white-star.png', 'white-star.png'], ['white-cloud.png', 'white-cloud.png', 'white-star.png'])
+  +content('fonderizos-1', 'right', 'fonderizos-glyph.png', ['snowflakes.png', 'white-star.png', 'white-star.png'], ['white-cloud.png', 'white-cloud.png', 'white-star.png'])
     :markdown-it(html linkify typographer)
-      ## Hedgefundhog
+      ## Fonderizos
 
-      *"Bitcoin isn't made for crime. But I am."*
+      *"Bitcoin no está hecho para el crimen. Pero yo soy."*
 
-      Some believe that bitcoin's anonymous and censorship-resistant nature makes it the perfect tool for committing crimes like money laundering. And it's true: people do use bitcoin for this. But if you're one of these not-very-smooth criminals, you should take a seat.
+      Algunos creen que la naturaleza anónima y resistente a la censura de bitcoin lo convierte en la herramienta perfecta para cometer delitos como el lavado de dinero. Y es cierto: la gente usa bitcoin para esto. Pero si eres uno de estos criminales no muy suaves, deberías tomar asiento.
 
-      Not only is bitcoin not anonymous (it's pseudonymous), it leaves behind a pretty hard-to-miss trail*. So if crime is your thing, we recommend sticking to cash, which is harder to trace and already preferred by many accomplished criminals.
+      Bitcoin no solo no es anónimo (es un seudónimo), sino que deja atras un rastro bastante difícil de perder*. Entonces, si lo tuyo es el crimen, te recomendamos que te limites al dinero en efectivo, que es más difícil de rastrear y ya lo prefieren muchos criminales consumados.
 
-      *For now
+      *Por ahora
 
-  +figure('hedgefundhog', 'Hedgefundhog', 'left')
+  +figure('fonderizos', 'Fonderizos', 'left')
 
-  +content('scamera-1', 'left', 'scamera-glyph.png', ['white-cloud.png', 'red-star.png'], ['red-star.png', 'red-star.png'])
+  +content('estafamera-1', 'left', 'estafamera-glyph.png', ['white-cloud.png', 'red-star.png'], ['red-star.png', 'red-star.png'])
     :markdown-it(html linkify typographer)
-      ## Scamera
+      ## Estafamera
 
-      *"I'm feeling generous and want to give back to my community."*
+      *"Me siento generosa y quiero devolverle a mi comunidad."*
 
-      Malicious actors come in many shapes and sizes: dinosaurs in hoodies, impeccably well-dressed hedgehogs, a world-famous CEO trying to double your bitcoin for a small fee. Danger is everywhere. But it's also a) not unique to bitcoin and b) something that anyone can defend against by following a few simple rules.
+      Los actores maliciosos vienen en muchas formas y tamaños: dinosaurios con sudaderas, erizos impecablemente bien vestidos, un CEO de fama mundial que intenta duplicar su bitcoin por una pequeña tarifa. El peligro está en todas partes. Pero también a) no es exclusivo de bitcoin y b) algo contra lo que, cualquiera puede defenderse siguiendo algunas simples reglas.
 
-      As the saying goes, if it looks too good to be true, it probably is. So the next time you see one of these three-pronged predators offering to buy you a nation-state, keep scrolling. They can't take your bitcoin unless you give it to them.
+      Como dice el refrán, si parece demasiado bueno para ser verdad, probablemente lo sea. Entonces, la próxima vez que veas a uno de estos depredadores de tres puntas ofreciéndote comprar un estado-nación, sigue desplazándote. No pueden tomar tu bitcoin a menos que se los des.
 
-  +figure('scamera', 'Scamera', 'right')
+  +figure('estafamera', 'Estafamera', 'right')
 
-  +content('iron-legislator-1', 'right', 'iron-legislator-glyph.png', ['metal.png', 'white-cloud.png', 'white-cloud.png'], ['papers.png', 'white-star.png'])
+  +content('legislator-hierrico-1', 'right', 'legislator-hierrico-glyph.png', ['metal.png', 'white-cloud.png', 'white-cloud.png'], ['papers.png', 'white-star.png'])
     :markdown-it(html linkify typographer)
-      ## The Iron Legislator
+      ## El Legislator Hierrico
 
-      *"These boots were made for walking… all over innovation!!!"*
+      *"Estas botas fueron hechas para caminar… toda innovación!!!"*
 
-      Of all the things to admire about Satoshi Nakamoto, foresight is perhaps foremost. Satoshi knew that bitcoin could compete with fiat currencies and the rubber-stamping governments that issue them. However, because of the distributed nature of bitcoin nodes, miners, wallets, and general interest, bitcoin is hard to put the legislative kibosh on.
+      De todas admirables cosas de Satoshi Nakamoto, la previsión es quizás la más importante. Satoshi sabía que bitcoin podía competir con las monedas fiduciarias y los gobiernos que las emiten. Sin embargo, debido a la naturaleza distribuida de los nodos de bitcoin, los mineros, las billeteras y el interés general, es difícil sabotear el bitcoin legalmente.
 
-      So even though bitcoin has changed a lot over the years, one thing remains the same: If you can access the Internet, you can access bitcoin.
+      Entonces, aunque Bitcoin ha cambiado mucho a lo largo de los años, una cosa sigue siendo la misma: si puede acceder a Internet, puede acceder a Bitcoin.
 
-  +figure('iron-legislator', 'The Iron Legislator', 'left')
+  +figure('legislator-hierrico', 'El Legislator Hierrico', 'left')
 
-  +content('mount-inaccessible-1', 'left', 'mount-inaccessible-glyph.png', ['black-star.png', 'black-star.png', 'black-cloud.png'])
+  +content('monte-inaccessible-1', 'left', 'monte-inaccessible-glyph.png', ['black-star.png', 'black-star.png', 'black-cloud.png'])
     :markdown-it(html linkify typographer)
-      ## Mount Inaccessible
+      ## Monte Inaccessible
 
-      *"There are ~1091 ways to the top. Only one isn't a dead end."*
+      *"Hay ~1091 formas de llegar a la cima. Sólo uno no es un callejón sin salida."*
 
-      Ask around, and you'll hear that millions of bitcoin are lost forever. This isn't exactly right. For one thing, they aren't "lost." We know exactly where to find them: they're stuck on bitcoin's blockchain, waiting to be rescued. Sadly, they could be waiting a very long while.
+      Pregunte y oirá que millones de bitcoins para siempre se pierdrán. Esto no es exactamente correcto. Por un lado, no están "perdidos". Sabemos exactamente dónde encontrarlos: están solo atrapados en la cadena de bloques de bitcoin, esperando ser rescatados. Lamentablemente, mucho tiempo podrían estar esperando.
 
-      Thanks to bitcoin's proof-of-work consensus and utilization of elliptic curve cryptography, these coins are more like very, very inaccessible. But if you responsibly manage your recovery phrases and check every address before hitting send, there's no reason why your coins should join them.
+      Gracias al consenso de prueba de trabajo de bitcoin y la utilización de la criptografía de curva elíptica, estas monedas son más bien muy, muy inaccesibles. Pero si de manera responsable administra sus frases de recuperación, y antes de enviar verifica cada dirección, no hay razón por la que sus monedas deban unirse a ellas.
 
-  +figure('mount-inaccessible', 'Mount Inaccessible', 'right')
+  +figure('monte-inaccessible', 'Monte Inaccessible', 'right')
 
-  +content('terrible-hiding-spot-1', 'right', 'terrible-hiding-spot-glyph.svg', ['terrible-hiding-spot-bg-top.svg', 'curl.png', 'curl.png'])
+  +content('terrible-escondite-1', 'right', 'terrible-escondite-glyph.svg', ['terrible-escondite-bg-top.svg', 'curl.png', 'curl.png'])
     :markdown-it(html linkify typographer)
-      ## Terrible Hiding&nbsp;Spot
+      ## Terrible Escondite
 
-      *"Bitcoin? Cash? Your security is only as good as your hiding spot."*
+      *"¿Bitcoin? ¿Efectivo? Su seguridad es tan buena como su escondite."*
 
-      Bitcoin is like gold, they say: it's valuable, scarce, fungible, yadda yadda. But bitcoin is really more like digital cash. And like most digital things, bitcoin can be backed up, while physical cash and gold are susceptible to single points of failure.
+      Bitcoin es como el oro, dicen: es valioso, escaso, fungible, bla bla bla. Pero bitcoin es realmente más como efectivo digital. Y como la mayoría de las cosas digitales, se puede hacer una copia de seguridad de bitcoin, mientras que el dinero físico y el oro son susceptibles a fallar en puntos únicos.
 
-      In addition to letting users create multiple backups of recovery phrases, bitcoin can protect your money with multi-signature technology, which requires the keys of multiple secure devices to move your bitcoin, defeating the need for hiding places altogether.
+      Además de permitir a los usuarios crear múltiples copias de seguridad de las frases de recuperación, bitcoin puede proteger su dinero con tecnología de múltiples firmas, que requiere las claves de múltiples dispositivos seguros para mover su bitcoin, eliminando por completo la necesidad de esconderse.
 
-  +figure('terrible-hiding-spot', 'Terrible Hiding Spot', 'left')
+  +figure('terrible-escondite', 'Terrible Escondite', 'left')
 
-  article#end(style=`background-image:url(${assetPath("/img/security/plants-end.png")}),url(${assetPath("/img/security/hackersaurus-rex-bg-bottom.svg")})`)
+  article#end(style=`background-image:url(${assetPath("/img/security/plants-end.png")}),url(${assetPath("/img/security/hackerosaurio-rex-bg-bottom.svg")})`)
     .bg(style=`background-image:url(${assetPath("/img/security/end-bg.svg")})`)
     .content
-      span.prelude Volume 3 coming soon
-      h1.title The End?
-      a.button(href="/volume-1-bitcoin-mining/")
-        span Read Volume 1: Bitcoin Mining
+      span.prelude Volumen 3 muy pronto
+      h1.title ¿El fin?
+      a.button(href="/volumen-1-mineria-bitcoin/")
+        span Leer Volumen 1: Mineía Bitcoin

@@ -10,30 +10,30 @@ main {
       "title"
       "intro-1"
       "intro-2"
-      "hackersaurus-rex-1"
-      "hackersaurus-rex-2"
-      "hedgefundhog-1"
-      "hedgefundhog-2"
-      "scamera-1"
-      "scamera-2"
-      "iron-legislator-1"
-      "iron-legislator-2"
-      "mount-inaccessible-1"
-      "mount-inaccessible-2"
-      "terrible-hiding-spot-1"
-      "terrible-hiding-spot-2"
+      "hackerosaurio-rex-1"
+      "hackerosaurio-rex-2"
+      "fonderizos-1"
+      "fonderizos-2"
+      "estafamera-1"
+      "estafamera-2"
+      "legislador-hierrico-1"
+      "legislador-hierrico-2"
+      "monte-inaccessible-1"
+      "monte-inaccessible-2"
+      "terrible-escondite-1"
+      "terrible-escondite-2"
       "end";
   }
   @media (--L_and_up) {
     grid-template-areas:
       "title title"
       "intro-1 intro-2"
-      "hackersaurus-rex-1 hackersaurus-rex-2"
-      "hedgefundhog-2 hedgefundhog-1"
-      "scamera-1 scamera-2"
-      "iron-legislator-2 iron-legislator-1"
-      "mount-inaccessible-1 mount-inaccessible-2"
-      "terrible-hiding-spot-2 terrible-hiding-spot-1"
+      "hackerosaurio-rex-1 hackerosaurio-rex-2"
+      "fonderizos-2 fonderizos-1"
+      "estafamera-1 estafamera-2"
+      "legislador-hierrico-2 legislador-hierrico-1"
+      "monte-inaccessible-1 monte-inaccessible-2"
+      "terrible-escondite-2 terrible-escondite-1"
       "end end";
   }
 }
@@ -137,12 +137,12 @@ article {
   }
 }
 
-#hackersaurus-rex-1 {
+#hackerosaurio-rex-1 {
   --color-lead: #F75D3D;
   --color-text: #B4BBBD;
   --color-bg: #272727;
 
-  grid-area: hackersaurus-rex-1;
+  grid-area: hackerosaurio-rex-1;
 
 
   @media (--up_to_L) {
@@ -156,19 +156,19 @@ article {
   }
 }
 
-#hackersaurus-rex-2 {
+#hackerosaurio-rex-2 {
   --color-text: #B4BBBD;
   --color-bg: #272727;
 
-  grid-area: hackersaurus-rex-2;
+  grid-area: hackerosaurio-rex-2;
 }
 
-#hedgefundhog-1 {
+#fonderizos-1 {
   --color-lead: #13514C;
   --color-text: #262E2E;
   --color-bg: #CEB776;
 
-  grid-area: hedgefundhog-1;
+  grid-area: fonderizos-1;
   background-position: 76% 5%, 69% 80%, 5% 89%;
 
   & .wrap {
@@ -177,19 +177,19 @@ article {
   }
 }
 
-#hedgefundhog-2 {
+#fonderizos-2 {
   --color-text: #262E2E;
   --color-bg: #CEB776;
 
-  grid-area: hedgefundhog-2;
+  grid-area: fonderizos-2;
 }
 
-#scamera-1 {
+#estafamera-1 {
   --color-lead: #FFDD8E;
   --color-text: #F5E7CC;
   --color-bg: #5B574D;
 
-  grid-area: scamera-1;
+  grid-area: estafamera-1;
   background-position: 30% 5%, 65% 2%;
 
   & .wrap {
@@ -197,19 +197,19 @@ article {
   }
 }
 
-#scamera-2 {
+#estafamera-2 {
   --color-text: #F5E7CC;
   --color-bg: #5B574D;
 
-  grid-area: scamera-2;
+  grid-area: estafamera-2;
 }
 
-#iron-legislator-1 {
+#legislador-hierrico-1 {
   --color-lead: #E58918;
   --color-text: #F8E1B0;
   --color-bg: #312D25;
 
-  grid-area: iron-legislator-1;
+  grid-area: legislador-hierrico-1;
   background-position: 100% 0, 1% 5%, 60% 10%;
   background-size: auto, auto, 100px;
 
@@ -219,19 +219,19 @@ article {
   }
 }
 
-#iron-legislator-2 {
+#legislador-hierrico-2 {
   --color-text: #F8E1B0;
   --color-bg: #312D25;
 
-  grid-area: iron-legislator-2;
+  grid-area: legislador-hierrico-2;
 }
 
-#mount-inaccessible-1 {
+#monte-inaccessible-1 {
   --color-lead: #292320;
   --color-text: #0B0B0A;
   --color-bg: #9D9680;
 
-  grid-area: mount-inaccessible-1;
+  grid-area: monte-inaccessible-1;
   background-position: 15% 5%, 50% 7%, 100% 5%;
   background-size: auto, 40px, auto;
 
@@ -240,19 +240,19 @@ article {
   }
 }
 
-#mount-inaccessible-2 {
+#monte-inaccessible-2 {
   --color-text: #0B0B0A;
   --color-bg: #9D9680;
 
-  grid-area: mount-inaccessible-2;
+  grid-area: monte-inaccessible-2;
 }
 
-#terrible-hiding-spot-1 {
+#terrible-escondite-1 {
   --color-lead: #E8FFB6;
   --color-text: #E0FFE9;
   --color-bg: #3D555B;
 
-  grid-area: terrible-hiding-spot-1;
+  grid-area: terrible-escondite-1;
 
   background-position: 15% 2%, 68% 88%, -1% 93%;
   background-size: auto, auto, 5%;
@@ -262,9 +262,9 @@ article {
   }
 }
 
-#terrible-hiding-spot-2 {
+#terrible-escondite-2 {
   --color-text: #E0FFE9;
   --color-bg: #3D555B;
 
-  grid-area: terrible-hiding-spot-2;
+  grid-area: terrible-escondite-2;
 }

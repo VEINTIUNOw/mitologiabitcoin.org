@@ -16,5 +16,5 @@ const renderPage = (name, out = null, data = {}) => {
 }
 
 renderPage('volume-1', 'index')
-renderPage('volume-1', 'volume-1-bitcoin-mining')
-renderPage('volume-2', 'volume-2-bitcoin-security')
+renderPage('volume-1', 'volumen-1-mineria-bitcoin')
+renderPage('volume-2', 'volumen-2-seguridad-bitcoin')

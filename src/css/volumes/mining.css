@@ -26,30 +26,30 @@ main {
       "title"
       "intro-1"
       "intro-2"
-      "green-giants-1"
-      "green-giants-2"
-      "scale-a-manders-1"
-      "scale-a-manders-2"
-      "warewolves-1"
-      "warewolves-2"
-      "ent-a-cops-1"
-      "ent-a-cops-2"
+      "gigantes-verdes-1"
+      "gigantes-verdes-2"
+      "escala-a-mantes-1"
+      "escala-a-mantes-2"
+      "mercelobos-1"
+      "mercelobos-2"
+      "ener-agentes-1"
+      "ener-agentes-2"
       "ampires-1"
       "ampires-2"
-      "fiat-fairies-1"
-      "fiat-fairies-2"
+      "hada-fiat-1"
+      "hadas-fiat-2"
       "end";
   }
   @media (--L_and_up) {
     grid-template-areas:
       "title title"
       "intro-1 intro-2"
-      "green-giants-1 green-giants-2"
-      "scale-a-manders-2 scale-a-manders-1"
-      "warewolves-1 warewolves-2"
-      "ent-a-cops-2 ent-a-cops-1"
+      "gigantes-verdes-1 gigantes-verdes-2"
+      "escala-a-mantes-2 escala-a-mantes-1"
+      "mercelobos-1 mercelobos-2"
+      "ener-agentes-2 ener-agentes-1"
       "ampires-1 ampires-2"
-      "fiat-fairies-2 fiat-fairies-1"
+      "hadas-fiat-2 hadas-fiat-1"
       "end end";
   }
 }
@@ -159,12 +159,12 @@ main {
   }
 }
 
-#scale-a-manders-1 {
+#escala-a-mantes-1 {
   --color-lead: var(--color-red);
   --color-text: var(--color-tungsten);
   --color-bg: var(--color-beige);
 
-  grid-area: scale-a-manders-1;
+  grid-area: escala-a-mantes-1;
   background-size: calc(722px * var(--bg-scale)) calc(606px * var(--bg-scale));
   background-position: 50% 50%;
   @media (--XL_and_up) {
@@ -179,38 +179,38 @@ main {
   }
 }
 
-#scale-a-manders-2 {
+#escala-a-mantes-2 {
   --color-text: var(--color-tungsten);
   --color-bg: var(--color-beige);
 
-  grid-area: scale-a-manders-2;
+  grid-area: escala-a-mantes-2;
 }
 
-#green-giants-1 {
+#gigantes-verdes-1 {
   --color-lead: var(--color-pink);
   --color-text: var(--color-tungsten);
   --color-bg: var(--color-beige);
 
-  grid-area: green-giants-1;
+  grid-area: gigantes-verdes-1;
 
   & .wrap {
     background-position: 85% 0;
   }
 }
 
-#green-giants-2 {
+#gigantes-verdes-2 {
   --color-text: var(--color-tungsten);
   --color-bg: var(--color-beige);
 
-  grid-area: green-giants-2;
+  grid-area: gigantes-verdes-2;
 }
 
-#warewolves-1 {
+#mercelobos-1 {
   --color-lead: var(--color-pale);
   --color-text: var(--color-greygreen);
   --color-bg: var(--color-blue);
 
-  grid-area: warewolves-1;
+  grid-area: mercelobos-1;
   background-size: calc(440px * var(--bg-scale)) calc(814px * var(--bg-scale));
   @media (--L_to_XL) {
     background-position: top 50% left 35%;
@@ -231,19 +231,19 @@ main {
   }
 }
 
-#warewolves-2 {
+#mercelobos-2 {
   --color-text: var(--color-greygreen);
   --color-bg: var(--color-blue);
 
-  grid-area: warewolves-2;
+  grid-area: mercelobos-2;
 }
 
-#ent-a-cops-1 {
+#ener-agentes-1 {
   --color-lead: var(--color-yellow);
   --color-text: var(--color-greygreen);
   --color-bg: var(--color-blue);
 
-  grid-area: ent-a-cops-1;
+  grid-area: ener-agentes-1;
 
   & .glyph {
     left: -1rem;
@@ -254,11 +254,11 @@ main {
   }
 }
 
-#ent-a-cops-2 {
+#ener-agentes-2 {
   --color-text: var(--color-greygreen);
   --color-bg: var(--color-blue);
 
-  grid-area: ent-a-cops-2;
+  grid-area: ener-agentes-2;
 }
 
 #ampires-1 {
