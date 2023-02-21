@@ -36,7 +36,7 @@ main {
       "ener-agentes-2"
       "ampires-1"
       "ampires-2"
-      "hada-fiat-1"
+      "hadas-fiat-1"
       "hadas-fiat-2"
       "end";
   }
@@ -288,21 +288,21 @@ main {
   grid-area: ampires-2;
 }
 
-#fiat-fairies-1 {
+#hadas-fiat-1 {
   --color-lead: var(--color-greyish);
   --color-text: var(--color-darkgreen);
   --color-bg: var(--color-teal);
 
-  grid-area: fiat-fairies-1;
+  grid-area: hadas-fiat-1;
 
   & .wrap {
     background-position: 80% 100%;
   }
 }
 
-#fiat-fairies-2 {
+#hadas-fiat-2 {
   --color-text: var(--color-darkgreen);
   --color-bg: var(--color-teal);
 
-  grid-area: fiat-fairies-2;
+  grid-area: hadas-fiat-2;
 }
