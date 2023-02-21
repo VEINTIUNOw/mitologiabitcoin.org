@@ -1,6 +1,6 @@
 {
-    "name": "Bitcoin Mythology",
-    "short_name": "Bitcoin Mythology",
+    "name": "Mitología Bitcoin",
+    "short_name": "Mitología Bitcoin",
     "icons": [
         {
             "src": "./img/favicon/android-chrome-192x192.png",
@@ -15,6 +15,6 @@
     ],
     "theme_color": "#e0d1ae",
     "background_color": "#e0d1ae",
-    "start_url": "https://bitcoinmythology.org/",
+    "start_url": "https://MitologiaBitcoin.VEINTIUNO.world",
     "display": "standalone"
 }

@@ -1,14 +1,14 @@
 # Mitología Bitcoin
 
-[El libro de la Mitología de Bitcoin](https://bitcoinmythology.org) por Spiral Team.
+Este libro digital de [Mitología del Bitcoin](https://mitologiaBitcoin.VEINTIUNO.world.org) ha sido traducido por la comunidad [VEINTIUNO](https://VEINTIUNO.world) desde el libro original en inglés [Bitcoin Mythology](https://bitcoinmythology.org) por Spiral Team.
 
 ![Build](https://github.com/spiralxyz/bitcoinmythology.org/workflows/build/badge.svg)
 
-## Content
+## Contenidos
 
 El contenido se puede editar a través de los archivos JSON en el [content directory](./content).
 
-## Local build
+## Construcción local
 
 [Node.js](https://nodejs.org/en/) es un requisito previo, las dependencias se administran a través de `npm`.
 Una vez que haya clonado este repositorio, puede configurar los paquetes:
