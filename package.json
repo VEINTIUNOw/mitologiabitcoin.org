@@ -48,5 +48,8 @@
     "postcss-media-variables": "2.0.1",
     "postcss-nesting": "10.2.0",
     "pug": "3.0.2"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^0.1.10"
   }
 }

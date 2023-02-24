@@ -1,2 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
-})
+import { inject } from '@vercel/analytics'
+inject()
+
+document.addEventListener('DOMContentLoaded', () => {})
