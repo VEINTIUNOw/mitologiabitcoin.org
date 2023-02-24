@@ -3,11 +3,13 @@ const renderMarkdown = require('./markdown')
 
 const assetPath = path => {
   let revs
-  try { revs = require('./rev-manifest.json') } catch (error) { }
+  try {
+    revs = require('./rev-manifest.json')
+  } catch (error) {}
   return `${(revs && revs[path]) || path}`
 }
 const assetUrl = (path, protocol = 'https') => {
-  return `${protocol}://bitcoinmythology.org${assetPath(path)}`
+  return `${protocol}://mitologiabitcoin.veintiuno.world${assetPath(path)}`
 }
 
 module.exports = {
