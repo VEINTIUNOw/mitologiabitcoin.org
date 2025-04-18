@@ -1,6 +1,9 @@
 # Mitología Bitcoin
 
-Este libro digital de [Mitología del Bitcoin](https://mitologiaBitcoin.VEINTIUNO.world.org) ha sido traducido por la comunidad [VEINTIUNO](https://VEINTIUNO.world) desde el libro original en inglés [Bitcoin Mythology](https://bitcoinmythology.org) por [@spiralxyz](https://github.com/spiralxyz) Team.
+Este libro digital de [Mitología del Bitcoin](https://VEINTIUNO.btc.pub/mitologia) ha sido traducido por la comunidad [VEINTIUNO](https://VEINTIUNO.world) desde el libro original en inglés [Bitcoin Mythology](https://bitcoinmythology.org) por [@spiralxyz](https://github.com/spiralxyz) Team.
+
+Ahora también disponoble en papel:
+- [https://veintiuno.btc.pub/c/libros/]([url](https://veintiuno.btc.pub/c/libros/))
 
 ![Build](https://github.com/spiralxyz/bitcoinmythology.org/workflows/build/badge.svg)
 
